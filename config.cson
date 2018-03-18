@@ -1,0 +1,132 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    selectKeyTrigger: "Ctrl"
+  "atom-beautify":
+    html: {}
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_newline: true
+    json: {}
+    vue:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_newline: true
+      unformatted: [
+        "a"
+        "abbr"
+        "area"
+        "audio"
+        "b"
+        "bdi"
+        "bdo"
+        "br"
+        "button"
+        "canvas"
+        "cite"
+        "code"
+        "data"
+        "datalist"
+        "del"
+        "dfn"
+        "em"
+        "embed"
+        "i"
+        "iframe"
+        "img"
+        "input"
+        "ins"
+        "kbd"
+        "keygen"
+        "label"
+        "map"
+        "mark"
+        "math"
+        "meter"
+        "noscript"
+        "object"
+        "output"
+        "progress"
+        "q"
+        "ruby"
+        "s"
+        "samp"
+        "select"
+        "small"
+        "span"
+        "strong"
+        "sub"
+        "sup"
+        "svg"
+        "textarea"
+        "time"
+        "u"
+        "var"
+        "video"
+        "wbr"
+        "text"
+        "acronym"
+        "address"
+        "big"
+        "dt"
+        "ins"
+        "small"
+        "strike"
+        "tt"
+        "pre"
+        "h1"
+        "h2"
+        "h3"
+        "h4"
+        "h5"
+        "h6"
+      ]
+      wrap_attributes: "force"
+      wrap_line_length: 120
+  "atom-toolbar":
+    visible: false
+  core:
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      ".codekit-cache"
+      "bower_components"
+      "node_modules"
+      "www"
+      "platforms"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+    preferredLineLength: 120
+    tabLength: 4
+  "exception-reporting":
+    userId: "91b1bb41-37ae-4f64-b5b9-5b4564d96336"
+  fonts:
+    fontFamily: "Bitstream Vera Sans Mono"
+  "fuzzy-finder":
+    ignoredNames: [
+      ".git"
+      "node_modules"
+    ]
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-ui-default":
+    panelHeight: 141
+  minimap:
+    absoluteMode: true
+  "platformio-ide-terminal":
+    core:
+      shell: "/bin/zsh"
+    style: {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 4
+    neverCloseUnsaved: true
