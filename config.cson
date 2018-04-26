@@ -2,84 +2,26 @@
   "Sublime-Style-Column-Selection":
     selectKeyTrigger: "Ctrl"
   "atom-beautify":
-    html: {}
+    html:
+      unformatted: [
+        "pre"
+        "code"
+      ]
     js:
       beautify_on_save: true
       brace_style: "collapse-preserve-inline"
+      default_beautifier: "ESLint Fixer"
       end_with_newline: true
+      keep_array_indentation: true
     json: {}
     vue:
       beautify_on_save: true
       brace_style: "collapse-preserve-inline"
       end_with_newline: true
+      keep_array_indentation: true
       unformatted: [
-        "a"
-        "abbr"
-        "area"
-        "audio"
-        "b"
-        "bdi"
-        "bdo"
-        "br"
-        "button"
-        "canvas"
-        "cite"
-        "code"
-        "data"
-        "datalist"
-        "del"
-        "dfn"
-        "em"
-        "embed"
-        "i"
-        "iframe"
-        "img"
-        "input"
-        "ins"
-        "kbd"
-        "keygen"
-        "label"
-        "map"
-        "mark"
-        "math"
-        "meter"
-        "noscript"
-        "object"
-        "output"
-        "progress"
-        "q"
-        "ruby"
-        "s"
-        "samp"
-        "select"
-        "small"
-        "span"
-        "strong"
-        "sub"
-        "sup"
-        "svg"
-        "textarea"
-        "time"
-        "u"
-        "var"
-        "video"
-        "wbr"
-        "text"
-        "acronym"
-        "address"
-        "big"
-        "dt"
-        "ins"
-        "small"
-        "strike"
-        "tt"
         "pre"
-        "h1"
-        "h2"
-        "h3"
-        "h4"
-        "h5"
-        "h6"
+        "code"
       ]
       wrap_attributes: "force"
       wrap_line_length: 120
@@ -96,12 +38,11 @@
       ".codekit-cache"
       "bower_components"
       "node_modules"
-      "www"
       "platforms"
     ]
     telemetryConsent: "no"
   editor:
-    fontSize: 13
+    fontSize: 15
     preferredLineLength: 120
     tabLength: 4
   "exception-reporting":
@@ -117,6 +58,7 @@
     lintHtmlFiles: true
   "linter-ui-default":
     panelHeight: 141
+    showPanel: true
   minimap:
     absoluteMode: true
   "platformio-ide-terminal":
